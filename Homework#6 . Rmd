@@ -1,0 +1,71 @@
+---
+title: 'Homework #6'
+author: "Amira Elmakawy"
+date: "2022-10-28"
+output: html_document
+---
+
+
+Homework #6
+
+Amira Elmakawy
+
+
+Article 1:” The Impact of the Economic Crisis on Happiness”  by “Dora Gudrun Gudmundsdottir”.
+It Points out to the causation of the increase or decrease in income on the happiness and correlation between unemployment and unhappiness, and this explores which groups are more vulnerable to changes according to demographic factors and health.
+
+It also studies how the economic recession effects on the mental health, mortality and suicide rate which leads to the unhappiness.
+
+This paper indicates how well a society is doing as a good indicator to the wellbeing. and determines how money can buy happiness.
+
+Data: A postal Health Survey conducted by the PHI that was sent out in October 2007 and again in November 2009. 
+
+Results: 
+	Women had a higher happiness rate in 2007 compared to men. 
+	Results indicate that mostly the financial difficulties determine and predict the level of happiness.
+
+https://www-jstor-org.ccny-proxy1.libr.ccny.cuny.edu/stable/24719093?searchText=deaton+paper+on+global+happiness&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Ddeaton%2Bpaper%2Bon%2Bglobal%2Bhappiness&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&refreqid=fastly-default%3Aa22cec87fbad2fb5f39885db68d6fa19&seq=7#metadata_info_tab_contents
+
+Article 2 : “Two Happiness Puzzles” by “Angus Deaton and Arthur A. Stone”
+Studies two levels of happiness, (left fork) : That income ,education and health are positively linked with (SWB) (Subjective wellbeing) , and (right fork) : That unemployment is much worse than loss of income.
+
+Using the data from the U.S, Canada , Europe , and developing countries in which researchers regressed some wellbeing measures on both individual income and average income over some local area.
+
+Basic data: The Gallup Healthways wellbeing Index Survey.
+
+
+
+Results: 
+	There are rich countries that are still ranked as unhappy countries.
+	The data used doesn’t support that income generates externalities for others.
+	More religious individuals should have higher well-being, But that didn’t apply in the U.S in this data  , As data showed that religious states have lower average ladder values and the more religious states are more sharply poorer.
+
+
+https://www-jstor-org.ccny-proxy1.libr.ccny.cuny.edu/stable/23469799?seq=7#metadata_info_tab_contents
+
+
+
+
+
+
+
+> xtabs(~ TWDAYS + EEDUC)
+                                    EEDUC
+TWDAYS                               less than hs some hs HS diploma some coll assoc deg bach deg adv deg
+  had 1-2 telework days in past week            6      12        152       537       272     1439    1667
+  had 3-4 telework days in past week            3      10        108       395       174     1211    1348
+  had 5+ telework days in past week            12      22        328      1247       617     3205    2905
+  had no telework days in past week           246     551       4285      6977      3518     6637    5861
+Total                                                               267    595       4873     9156   4581  12492  11781
+Fraction tw≥1                                              0.08    0.07       0.12        0.24     0.23    0.47     0.50
+
+{< BA and TW≥1} = 3895                                              {BA+ and TW≥1} = 11775
+
+{<BA and TW=0} = 15577                                                {BA+ and TW = 0 } = 12498
+Total                         19472                                                                12498
+Proportions:             0.20                                                                     0.49 
+
+P value < 0.00001 where the result is significant at <0.05. So, there is a high causation between the days and education.
+
+https://github.com/amiraelmakawy/Question-3-in-exam-.-R/blob/main/question%203%20in%20exam.R
+
